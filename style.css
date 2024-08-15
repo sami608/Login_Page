@@ -1,0 +1,187 @@
+html{
+    height:100%;
+}
+body{
+    /* background-image:url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height:100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    background-color: orange; 
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 75%;
+    width:75%;
+    background-color: white;
+    
+}
+/* .left .right{
+    margin:0;
+    padding:0;
+
+} */
+.We-are{
+    opacity: 0.5;
+    font-family: 300px;
+    margin-left: 10%;
+}
+.aroma{
+    opacity:1;
+}
+
+.left img{
+    height: 40px;
+    width:40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.left{
+    background-color: white;
+    width:50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.left h1{
+    margin-top: 8%;
+}
+.left .p1{
+    opacity: 0.5;
+    margin-left: 10%;
+}
+.left input[type="text"],.left input [type="password"]{
+    width:75%;
+    height:7%;
+    outline:none;
+    background-color:white;
+    border: 1.5px solid rgba(225, 225, 225, 0.541);
+    margin-left: 10%;
+    }
+    .left input:hover{
+        background-color: rgb(234, 231, 231);
+    }
+.left input[type="text"]:focus,.left input[type="password"]:focus{
+            border-left: 3px solid red;
+}
+#chkbox{
+    margin:5% 0%;
+    vertical-align: middle;
+}
+.rem{
+    display: flex;
+    margin:5% 0% 5% 10%;
+}
+.rme{
+    font-weight:lighter;
+    font-size: 12px;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+.for{
+    margin-left: 40%;
+}  
+.lo{
+    background-color: black;
+    color:white;
+    height:6% ;
+    width: 25%;
+    transition: box-shadow 0.3s ease;
+    margin-left: 10%; 
+}
+.lo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.up{
+    background-color: white;
+    height:6% ;
+    width: 25%;
+    margin-left: 5%;
+    opacity:0.7 ;
+    border: 1px solid grey;
+    transition: box-shadow 0.3s ease;   
+}
+.up:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.p2{
+    opacity: 0.5;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: 10%;
+}
+.p2:hover{
+    color: goldenrod;
+}
+.p3{
+    font-weight: bold;
+    margin: bottom 0;
+    margin-top: 0;
+    margin-left: 10%;
+}
+.p3:hover{
+    color: goldenrod;
+}
+.and{
+    opacity: 0.5;
+}
+.right{
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width:50%;
+        background-color:black;
+        color:white; 
+        flex-direction: column;
+        justify-content: space-between;
+
+}
+.icon{
+    display: flex;
+    font-size: 0.8vw;
+    justify-content:space-evenly; 
+    margin:10% 0% 0% 10%;
+}
+.icon *:hover{
+    color: goldenrod;
+}
+.bu{
+  display: flex;
+  justify-content: end;
+  margin: 0% 5% 5% 0%;
+  height:6%;
+ 
+} 
+.bu *{
+    height:100% ;
+    width: 25%;
+}
+.bu *:hover{
+    /* color:goldenrod; */
+    background-color:  orange;
+}
+.ni{
+    margin-right: 1vw;
+}
+.image{
+    display: flex;
+    background-color: white;
+    height: 50%;
+    width:45%;
+    margin-left:30%;
+    border-radius:10%;
+} 
+.image  img{
+    height: 100%;
+    width: 100%;
+} 
+   
+
+
+   
+
+
+
